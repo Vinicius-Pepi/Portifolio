@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 68.5%;
+}
+
+body {
+    background: black;
+    color: white;
+    min-width: 36.0rem;
+    font-family: 'Poppins';
+}
+
+
+
+
+
+
+
+
+
+
+body header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+
+body header img {
+    height: 10vh;
+}
+
+body header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+
+    list-style: none;
+
+    margin-top: 3.5rem;
+
+    font-size: 1.5rem;
+
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+body header nav ul li {
+    border: 1px solid transparent;
+    transition-duration: 300ms;
+}
+
+body header nav ul li:hover {
+    color: rgb(255, 50, 50);
+    border-bottom: 1px solid red;
+    cursor: pointer;
+}
+
+body header button {
+    margin-top: 3.0rem;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+
+    font-family: 'Poppins';
+    transition-duration: 300ms;
+}
+
+body header button:hover {
+    box-shadow: 0px 2px 20px 2px #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+main .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 3.0rem 0 3.0rem;
+
+    margin-top: 20rem;
+    margin-bottom: 30rem;
+}
+
+
+
+main .principal .memoji {
+    border-radius: 100%;
+    box-shadow: 0px -10px 30px 10px #ff0000;
+    height: 25em;
+}
+
+
+
+
+
+
+
+
+
+
+main .gray {
+    background-color: #1F1F1F;
+    z-index: 1;
+
+    width: 100%;
+    padding: 2.0rem 3.0rem 2.0rem 3.0rem;
+}
+
+main .gray h1 {
+    font-size: 4.0rem;
+    text-transform: uppercase;
+}
+
+main .gray p {
+    margin-top: 2.0rem;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+main .gray .about-images {
+    margin-top: 3.0rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .gray .about-images img {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+main .projects {
+    padding: 5.0rem 3.0rem 5.0rem 3.0rem;
+    background-color: black;
+}
+
+main .projects h1 {
+    font-size: 4.0rem;
+    text-transform: uppercase;
+}
+
+main .projects .project-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5.0rem;
+}
+
+main .projects .project-wrapper .project {
+    background-color: black;
+    width: 30rem;
+    height: 35rem;
+    border-radius: 1.5rem;
+    object-fit: contain;
+}
+
+main .projects .project-wrapper .project img{
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 1.5rem;
+
+    border: 2px solid red;
+
+    transition-duration: 400ms;
+    
+}
+
+main .projects .project-wrapper .project img:hover{
+    opacity: 0.5;
+    box-shadow: 0px 2px 20px 2px #ff0000;
+}
+
+main .projects .project-wrapper .project p {
+    color: white;
+    background-color: black;
+
+    position: relative;
+    bottom: 31rem;
+    left: 17rem;
+
+    width: fit-content;
+    padding: 1rem;
+
+    border-radius: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+main .projects .tech-wrapper{
+    margin-top: 5rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+main .projects .tech-wrapper .tech{
+    transition-duration: 300ms;
+}
+
+main .projects .tech-wrapper .tech:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+main .gray .input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+main .gray .input-wrapper label{
+    font-size: 1.3rem
+}
+
+
+main .gray .input-wrapper .input{
+    display: flex;
+    flex-direction: column;
+}
+
+main .gray .input-wrapper .input input{
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+}
+
+
+main .gray .input-wrapper .input textarea{
+    height: 20rem;
+    border-radius: 0.5rem;
+    resize: none;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+}
+
+
+main .gray .input-wrapper .input .row-2> :nth-child(2){
+    margin-bottom: 2rem;
+}
+
+main .gray .input-wrapper .input .row-2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+footer .brand {
+    position: fixed;
+    left: 2.0rem;
+    bottom: 2.0rem;
+    font-family: 'Poppins';
+    z-index: -1;
+}
+
+footer .brand h2 span {
+    color: red;
+    text-transform: uppercase;
+}
+
+footer .brand p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
