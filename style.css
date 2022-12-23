@@ -300,7 +300,7 @@ main .gray .input-wrapper .input .row-2{
 
 
 footer .brand {
-    position: fixed;
+    position: absolute;
     left: 2.0rem;
     bottom: 2.0rem;
     font-family: 'Poppins';
