@@ -72,6 +72,8 @@ body header button {
 
     font-family: 'Poppins';
     transition-duration: 300ms;
+
+    cursor: pointer;
 }
 
 body header button:hover {
@@ -193,6 +195,7 @@ main .projects .project-wrapper .project {
     height: 35rem;
     border-radius: 1.5rem;
     object-fit: contain;
+    transition-duration: 400ms;
 }
 
 main .projects .project-wrapper .project img{
@@ -205,12 +208,18 @@ main .projects .project-wrapper .project img{
     border: 2px solid red;
 
     transition-duration: 400ms;
+
+    opacity: 0.7;
     
 }
 
 main .projects .project-wrapper .project img:hover{
-    opacity: 0.5;
+    opacity: 1;
     box-shadow: 0px 2px 20px 2px #ff0000;
+}
+
+main .projects .project-wrapper .project:hover{
+    scale: 1.1;
 }
 
 main .projects .project-wrapper .project p {
@@ -218,8 +227,8 @@ main .projects .project-wrapper .project p {
     background-color: black;
 
     position: relative;
-    bottom: 31rem;
-    left: 17rem;
+    bottom: 5rem;
+    left: 1rem;
 
     width: fit-content;
     padding: 1rem;
