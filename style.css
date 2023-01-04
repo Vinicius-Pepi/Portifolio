@@ -30,6 +30,7 @@ body header {
     align-items: center;
     justify-content: space-around;
     margin-top: 2.5rem;
+    
 }
 
 body header img {
@@ -48,7 +49,7 @@ body header nav ul {
     font-size: 1.5rem;
 
     text-transform: uppercase;
-    font-family: 'Poppins';
+    font-family: 'Poppins';    
 }
 
 body header nav ul li {
@@ -103,6 +104,23 @@ main .principal .memoji {
     border-radius: 100%;
     box-shadow: 0px -10px 30px 10px #ff0000;
     height: 25em;
+}
+
+
+main .principal .brand {
+    position: absolute;
+    left: 2.0rem;
+    top: 92em;
+}
+
+main .principal .brand h2 span {
+    color: red;
+    text-transform: uppercase;
+}
+
+main .principal .brand p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 
@@ -298,21 +316,3 @@ main .gray .input-wrapper .input .row-2{
 
 
 
-
-footer .brand {
-    position: absolute;
-    left: 2.0rem;
-    bottom: 2.0rem;
-    font-family: 'Poppins';
-    z-index: -1;
-}
-
-footer .brand h2 span {
-    color: red;
-    text-transform: uppercase;
-}
-
-footer .brand p {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-}
