@@ -9,7 +9,7 @@
 }
 
 body {
-    background: black;
+    background: #000000;
     color: white;
     min-width: 36.0rem;
     font-family: 'Poppins';
@@ -30,7 +30,7 @@ body header {
     align-items: center;
     justify-content: space-around;
     margin-top: 2.5rem;
-    
+
 }
 
 body header img {
@@ -49,7 +49,7 @@ body header nav ul {
     font-size: 1.5rem;
 
     text-transform: uppercase;
-    font-family: 'Poppins';    
+    font-family: 'Poppins';
 }
 
 body header nav ul li {
@@ -198,9 +198,9 @@ main .projects .project-wrapper .project {
     transition-duration: 400ms;
 }
 
-main .projects .project-wrapper .project img{
-    width:100%; 
-    height:100%;
+main .projects .project-wrapper .project img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     display: inline-block;
     border-radius: 1.5rem;
@@ -210,15 +210,15 @@ main .projects .project-wrapper .project img{
     transition-duration: 400ms;
 
     opacity: 0.7;
-    
+
 }
 
-main .projects .project-wrapper .project img:hover{
+main .projects .project-wrapper .project img:hover {
     opacity: 1;
     box-shadow: 0px 2px 20px 2px #ff0000;
 }
 
-main .projects .project-wrapper .project:hover{
+main .projects .project-wrapper .project:hover {
     scale: 1.1;
 }
 
@@ -245,7 +245,7 @@ main .projects .project-wrapper .project p {
 
 
 
-main .projects .tech-wrapper{
+main .projects .tech-wrapper {
     margin-top: 5rem;
     display: flex;
     gap: 5rem;
@@ -254,11 +254,11 @@ main .projects .tech-wrapper{
     align-content: center;
 }
 
-main .projects .tech-wrapper .tech{
+main .projects .tech-wrapper .tech {
     transition-duration: 300ms;
 }
 
-main .projects .tech-wrapper .tech:hover{
+main .projects .tech-wrapper .tech:hover {
     transform: scale(1.2);
 }
 
@@ -272,7 +272,7 @@ main .projects .tech-wrapper .tech:hover{
 
 
 
-main .gray .input-wrapper{
+main .gray .input-wrapper {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -280,17 +280,17 @@ main .gray .input-wrapper{
     margin-bottom: 5rem;
 }
 
-main .gray .input-wrapper label{
+main .gray .input-wrapper label {
     font-size: 1.3rem
 }
 
 
-main .gray .input-wrapper .input{
+main .gray .input-wrapper .input {
     display: flex;
     flex-direction: column;
 }
 
-main .gray .input-wrapper .input input{
+main .gray .input-wrapper .input input {
     height: 3rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -300,7 +300,7 @@ main .gray .input-wrapper .input input{
 }
 
 
-main .gray .input-wrapper .input textarea{
+main .gray .input-wrapper .input textarea {
     height: 20rem;
     border-radius: 0.5rem;
     resize: none;
@@ -310,18 +310,39 @@ main .gray .input-wrapper .input textarea{
 }
 
 
-main .gray .input-wrapper .input .row-2> :nth-child(2){
+main .gray .input-wrapper .input .row-2> :nth-child(2) {
     margin-bottom: 2rem;
 }
 
-main .gray .input-wrapper .input .row-2{
+main .gray .input-wrapper .input .row-2 {
     display: flex;
     flex-direction: column;
 }
 
 
+main .gray .input-wrapper button {
+    display: flex;
+    justify-content: center;
 
+    margin: 3rem auto;
+    padding: 1.2rem 9rem;
 
+    background-color: #1F1F1F;
+    border: 1px solid red;
+    box-shadow: inset 0px 1px 45px -33px red,0px 0px 50px -100px black;
 
+    border-radius: 1rem;
 
+    color: white;
+    font-size: 1.5rem;
 
+    width: 100%;
+
+    transition-duration: 300ms;
+}
+
+main .gray .input-wrapper button:hover {
+    transition-duration: 300ms;
+    box-shadow: inset 0px 16px 45px -33px red,0px 2px 20px 2px #ff0000;
+    cursor: pointer;
+}

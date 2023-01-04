@@ -25,7 +25,8 @@
             </ul>
         </nav>
 
-        <a href="https://public.by.files.1drv.com/y4mWgbIGPC3HrEHMe0B2QKQ1W2H7yjyJutaOPWUo9g26qIAqvE1xV3Vz9mCVeRukEwP9uCxcFK68XBUWBxrXDazUhKQiWK6TJBxim9CKUd2ysPwtzdy8KIbumMkaQg85neDQNIu0tU3RHpuE1hCdd2no_7JvhyxeDvIQu0NTEH96q9ACX_n9CwS944UBDnEb7Vo9KL3Xn1OCsSpO82FWX21NwD_M75xHXgDoq_bjMJYxTk">
+        <a
+            href="https://public.by.files.1drv.com/y4mWgbIGPC3HrEHMe0B2QKQ1W2H7yjyJutaOPWUo9g26qIAqvE1xV3Vz9mCVeRukEwP9uCxcFK68XBUWBxrXDazUhKQiWK6TJBxim9CKUd2ysPwtzdy8KIbumMkaQg85neDQNIu0tU3RHpuE1hCdd2no_7JvhyxeDvIQu0NTEH96q9ACX_n9CwS944UBDnEb7Vo9KL3Xn1OCsSpO82FWX21NwD_M75xHXgDoq_bjMJYxTk">
             <button>Download CV</button>
         </a>
     </header>
@@ -80,8 +81,7 @@
                 </div>
 
                 <div class="project">
-                    <a href="https://vinicius-pepi.github.io/Rocketsect-landing-page/"
-                    target="_blank">
+                    <a href="https://vinicius-pepi.github.io/Rocketsect-landing-page/" target="_blank">
                         <img src="https://user-images.githubusercontent.com/31309987/210578664-34173a7c-094f-4204-984a-4bc4b71a4020.PNG"
                             alt="">
                         <p>Landing Page</p>
@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="project">
-                    <img  alt="">
+                    <img alt="">
                     <p>Em breve</p>
                 </div>
             </div>
@@ -124,29 +124,33 @@
 
 
         <section class="gray">
-            <h1>Entre em contato</h1>
+            <form action="https://formsubmit.co/dev.viniciuspepi@gmail.com" method="POST">
+                <h1>Entre em contato</h1>
 
-            <div class="input-wrapper">
-                <div class="input">
-                    <div class="row-2">
-                        <label for="name">Nome:</label>
-                        <input type="text" id="name">
+                <div class="input-wrapper">
+                    <div class="input">
+                        <div class="row-2">
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name" id="name" required>
 
-                        <label for="lastname">Assunto:</label>
-                        <input type="text" id="lastname">
+                            <label for="subject ">Assunto:</label>
+                            <input type="text" name="subject" id="subject " required>
+                        </div>
                     </div>
-                </div>
 
-                <div class="input">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email">
-                </div>
+                    <div class="input">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
 
-                <div class="input">
-                    <label for="about">Mensagem</label>
-                    <textarea name="about" id="about"></textarea>
+                    <div class="input">
+                        <label for="about">Mensagem</label>
+                        <textarea name="about" id="about"></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
                 </div>
-            </div>
+            </form>
         </section>
     </main>
 
